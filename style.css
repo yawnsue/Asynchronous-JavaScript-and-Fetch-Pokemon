@@ -1,0 +1,148 @@
+body{
+  margin:0;
+}
+
+.bg{
+  min-height:100vh;
+  background:lightblue;
+  display:flex;
+  justify-content:center;
+  padding:18px 0;
+}
+
+.panel{
+  width:520px;
+  background:white;
+  border:5px solid gold;
+  border-radius:46px;
+  padding:22px 26px 24px;
+  box-sizing:border-box;
+}
+
+.title{
+  text-align:center;
+  font-family:"Times New Roman", Times, serif;
+  font-size:22px;
+  margin-bottom:8px;
+}
+
+.searchRow{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin-bottom:16px;
+}
+
+#pokeInput{
+  width:240px;
+  height:22px;
+  font-size:14px;
+  box-sizing:border-box;
+}
+
+#findBtn{
+  height:26px;
+  font-size:14px;
+}
+
+.imgWrap{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:240px;
+  margin-bottom:8px;
+}
+
+#pokeImg{
+  width:220px;
+  height:220px;
+  object-fit:contain;
+  image-rendering:pixelated;
+}
+
+.audioWrap{
+  display:flex;
+  justify-content:center;
+  margin:8px 0 18px;
+}
+
+#pokeAudio{
+  width:360px;
+}
+
+.moves{
+  display:flex;
+  justify-content:center;
+  gap:26px;
+  margin-bottom:12px;
+}
+
+.col{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.moves select{
+  width:210px;
+  height:24px;
+  font-size:14px;
+}
+
+.btnRow{
+  display:flex;
+  justify-content:center;
+  margin:8px 0 10px;
+}
+
+#addBtn{
+  height:28px;
+  font-size:16px;
+  padding:0 12px;
+}
+
+.teamBox{
+  border:2px solid black;
+  margin-top:6px;
+}
+
+.teamRow{
+  display:grid;
+  grid-template-columns:220px 1fr;
+  min-height:110px;
+}
+
+.teamRow + .teamRow{
+  border-top:2px solid black;
+}
+
+.teamLeft{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-right:2px solid black;
+}
+
+.teamLeft img{
+  width:90px;
+  height:90px;
+  object-fit:contain;
+  image-rendering:pixelated;
+}
+
+.teamRight{
+  padding:12px 16px;
+  font-family:"Times New Roman", Times, serif;
+  font-size:20px;
+  line-height:1.15;
+}
+
+.moveLine{
+  display:grid;
+  grid-template-columns:26px 1fr;
+  align-items:center;
+}
+
+.dot{
+  text-align:center;
+}
